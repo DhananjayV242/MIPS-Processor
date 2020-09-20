@@ -1,0 +1,202 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Sep 18 15:27:12 2020
+[*]
+[dumpfile] "/home/dhananjay/Documents/EEE 3-2/COMP ARCH/MIPS-pipeline-processor/My attempt/check.vcd"
+[dumpfile_mtime] "Fri Sep 18 13:56:59 2020"
+[dumpfile_size] 57910
+[savefile] "/home/dhananjay/Documents/EEE 3-2/COMP ARCH/MIPS-pipeline-processor/My attempt/config.gtkw"
+[timestart] 0
+[size] 1920 1025
+[pos] -1 -1
+*-5.030237 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.CPU.
+[sst_width] 223
+[signals_width] 477
+[sst_expanded] 1
+[sst_vpaned_height] 303
+@28
+testbench.clk
+testbench.reset
+@200
+-
+@c00200
+-IF Stage
+@28
+testbench.CPU.IF_Stage.PC_src[1:0]
+@22
+testbench.CPU.IF_Stage.PC_plus4[31:0]
+testbench.CPU.IF_Stage.branch_address[31:0]
+testbench.CPU.IF_Stage.jump_address[31:0]
+testbench.CPU.IF_Stage.PC_in[31:0]
+testbench.CPU.IF_Stage.PC_out[31:0]
+@28
+testbench.CPU.IF_Stage.instruction[31:0]
+@1401200
+-IF Stage
+@200
+-
+@c00200
+-IF/ID Pipeline
+@22
+testbench.CPU.IF_ID_in[63:0]
+testbench.CPU.IF_ID_out[63:0]
+@1401200
+-IF/ID Pipeline
+@200
+-
+@c00200
+-ID Stage
+@c00022
+[color] 7
+testbench.CPU.ID_Stage.instruction[31:0]
+@28
+(0)testbench.CPU.ID_Stage.instruction[31:0]
+(1)testbench.CPU.ID_Stage.instruction[31:0]
+(2)testbench.CPU.ID_Stage.instruction[31:0]
+(3)testbench.CPU.ID_Stage.instruction[31:0]
+(4)testbench.CPU.ID_Stage.instruction[31:0]
+(5)testbench.CPU.ID_Stage.instruction[31:0]
+(6)testbench.CPU.ID_Stage.instruction[31:0]
+(7)testbench.CPU.ID_Stage.instruction[31:0]
+(8)testbench.CPU.ID_Stage.instruction[31:0]
+(9)testbench.CPU.ID_Stage.instruction[31:0]
+(10)testbench.CPU.ID_Stage.instruction[31:0]
+(11)testbench.CPU.ID_Stage.instruction[31:0]
+(12)testbench.CPU.ID_Stage.instruction[31:0]
+(13)testbench.CPU.ID_Stage.instruction[31:0]
+(14)testbench.CPU.ID_Stage.instruction[31:0]
+(15)testbench.CPU.ID_Stage.instruction[31:0]
+(16)testbench.CPU.ID_Stage.instruction[31:0]
+(17)testbench.CPU.ID_Stage.instruction[31:0]
+(18)testbench.CPU.ID_Stage.instruction[31:0]
+(19)testbench.CPU.ID_Stage.instruction[31:0]
+(20)testbench.CPU.ID_Stage.instruction[31:0]
+(21)testbench.CPU.ID_Stage.instruction[31:0]
+(22)testbench.CPU.ID_Stage.instruction[31:0]
+(23)testbench.CPU.ID_Stage.instruction[31:0]
+(24)testbench.CPU.ID_Stage.instruction[31:0]
+(25)testbench.CPU.ID_Stage.instruction[31:0]
+(26)testbench.CPU.ID_Stage.instruction[31:0]
+(27)testbench.CPU.ID_Stage.instruction[31:0]
+(28)testbench.CPU.ID_Stage.instruction[31:0]
+(29)testbench.CPU.ID_Stage.instruction[31:0]
+(30)testbench.CPU.ID_Stage.instruction[31:0]
+(31)testbench.CPU.ID_Stage.instruction[31:0]
+@1401200
+-group_end
+@22
+testbench.CPU.ID_Stage.Branch_taken[1:0]
+testbench.CPU.ID_Stage.branch_address[31:0]
+testbench.CPU.ID_Stage.jump_address[31:0]
+testbench.CPU.ID_Stage.main_controller.hazard_detected
+testbench.CPU.ID_Stage.main_controller.opcode[5:0]
+testbench.CPU.ID_Stage.main_controller.funct[5:0]
+testbench.CPU.ID_Stage.main_controller.AluOp[3:0]
+testbench.CPU.ID_Stage.main_controller.IsImm
+testbench.CPU.ID_Stage.main_controller.MemRead
+testbench.CPU.ID_Stage.main_controller.MemWrite
+testbench.CPU.ID_Stage.main_controller.MemtoReg
+testbench.CPU.ID_Stage.main_controller.RegDst
+testbench.CPU.ID_Stage.main_controller.RegWrite
+testbench.CPU.ID_Stage.Rd[4:0]
+testbench.CPU.ID_Stage.Rs[4:0]
+testbench.CPU.ID_Stage.Rt[4:0]
+testbench.CPU.ID_Stage.sgn_extend_out[31:0]
+@1401200
+-ID Stage
+@200
+-
+@c00200
+-ID/EXE Pipeline
+@22
+testbench.CPU.ID_EXE_in[125:0]
+testbench.CPU.ID_EXE_out[125:0]
+@1401200
+-ID/EXE Pipeline
+@200
+-
+@c00201
+-EXE Stage
+@c00200
+-EXE Forwarding unit
+@22
+testbench.CPU.EXE_Rs[4:0]
+testbench.CPU.EXE_Rt[4:0]
+testbench.CPU.EXE_fwd_unit.MEM_Rd[4:0]
+testbench.CPU.EXE_fwd_unit.WB_Rd[4:0]
+@28
+testbench.CPU.MEM_RegWrite
+testbench.CPU.Ex_FwdA[1:0]
+testbench.CPU.Ex_FwdB[1:0]
+@22
+testbench.CPU.EXE_data1[31:0]
+testbench.CPU.EXE_data2[31:0]
+testbench.CPU.MEM_ALU_out[31:0]
+@1401200
+-EXE Forwarding unit
+@200
+-
+@800200
+-ALU Operations
+@22
+testbench.CPU.EXE_Stage.AluOp[3:0]
+testbench.CPU.EXE_in1[31:0]
+testbench.CPU.EXE_in2[31:0]
+testbench.CPU.EXE_imm_data[31:0]
+@28
+testbench.CPU.EXE_Stage.IsImm
+@22
+testbench.CPU.ALU_out[31:0]
+@1000200
+-ALU Operations
+@1401201
+-EXE Stage
+@200
+-
+@c00200
+-EXE/MEM Pipeline
+@22
+testbench.CPU.EXE_MEM_in[72:0]
+testbench.CPU.EXE_MEM_out[72:0]
+@1401200
+-EXE/MEM Pipeline
+@200
+-
+@c00200
+-MEM Stage
+@22
+testbench.CPU.MEM_ALU_out[31:0]
+testbench.CPU.Mem_out[31:0]
+@28
+testbench.CPU.MEM_Stage.MemRead
+@22
+testbench.CPU.MEM_Data_input[31:0]
+@28
+testbench.CPU.MEM_Stage.MemWrite
+@1401200
+-MEM Stage
+@200
+-
+@c00200
+-MEM/WB Pipeline
+@22
+testbench.CPU.MEM_WB_in[70:0]
+testbench.CPU.MEM_WB_out[70:0]
+@1401200
+-MEM/WB Pipeline
+@200
+-
+@c00200
+-WB Stage
+@22
+testbench.CPU.WB_ALU_out[31:0]
+testbench.CPU.WB_Mem_out[31:0]
+@28
+testbench.CPU.WB_Stage.MemtoReg
+testbench.CPU.WB_Stage.RegWrite
+@1401200
+-WB Stage
+[pattern_trace] 1
+[pattern_trace] 0
